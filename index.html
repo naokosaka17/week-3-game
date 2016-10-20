@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Eater" rel="stylesheet">
+
+	<title>Hangman</title>
+	
+</head>
+	<body>
+		
+		<!--Header--> 
+		<header>
+				<img src="assets/images/pumpkin.jpeg" alt="halloween!" class ="titleImg">
+				<img src="assets/images/hangman.png" alt="hangman" id="title">
+				<img src="assets/images/cateyes.jpeg" alt="halloween!" class ="titleImg">
+				<!--show Answer -->
+				<h1 id="answer"></h1>
+				<div id="answer2"></div>
+		</header>
+
+
+		<!--Main content -->
+		<main>
+
+			<!--left side-  -Image-->
+			<img src="assets/images/moonwitch.jpeg" id="picture" alt="halloween">
+			
+			<!--- upper part of right side -->
+			<div class="upper">
+				<p>Press Any key to get started!<br>
+				<br><p>Win count:</p>
+					<!-- Win counter -->
+					<br><div id="winCount"></div>
+				<br><p>Current Word</p>
+					<!-- "_" and correct letter -->
+					<br><div id ="correctLetters"></div>
+			</div>
+
+			<!--lower part of left side -->
+			<div class="lower">
+
+				<p>Number of Guesses Remaining</p>
+					<!-- number of guesses left -->
+					<br><div id ="lifeLeft"></div>
+				
+
+				<br><p>Letters already guessed</p>
+					<!--put letters in here -->
+					<br><div id="wrongLetters"></div><br>
+
+			</div>
+		
+		</main>
+	<script src="assets/javascript/game.js"></script>
+	</body>
+</html>

@@ -1,0 +1,63 @@
+body {
+	background-color: black;
+}
+
+header {
+	margin-left: 30px;
+}
+
+.titleImg {
+	width: 250px;
+	height: 200px;
+}
+
+#title {
+	width: 650px;
+	height: 280px;
+	margin: 30px;
+}
+#answer {
+	text-align: center;
+	margin-left: 300px;
+	width: 600px;
+	height: 40px;
+	font-size: 35px;
+}
+
+main {
+	border: dashed 2px gray;
+	width: 630px;
+	margin:20px auto 100px auto;
+}
+
+.picture {
+	float: left;
+	width: 280px;
+	height: 220px;
+	padding: 10px 10px 432px 10px;
+}
+
+.upper, .lower {
+	padding: 18px;
+	margin-left: 330px;
+	text-align: center ;
+	font-size: 26px;
+	margin-right: 0px;
+	width: 265px;
+	border-left: dashed 2px gray;
+	margin-top:0px;
+}
+
+#correctLetters, #lifeLeft, #wrongLetters, #winCount, h1, p {
+	width: 260px;
+	font-family: 'Eater', cursive;
+	color: red;
+	
+}
+
+h1{
+	font-size: 70px;
+}
+
+
+
