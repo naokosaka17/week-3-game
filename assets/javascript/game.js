@@ -25,8 +25,6 @@ function startGame() {
 	blankAndSuccesses = [];
 	
 
-
-
 	for (var i = 0; i < numBlanks; i++) { 
 		blankAndSuccesses.push("_");
 	}
@@ -81,7 +79,7 @@ function gameover(){
 	else if (guessesLeft== 0){
 	 	//alert("You Lost");
 	 	document.getElementById("answer").innerHTML = "YOU LOST!!!";
-	 	document.getElementById("picture").src = "assets/images/ghostlady.jpg";
+	 	document.getElementById("picture").src = "assets/images/ghostLady.jpeg";
 	  	startGame();
 	}
 }
